@@ -1,0 +1,28 @@
+{
+  "name": "crypto-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "c": "bin/crypto.js"
+  },
+  "scripts": {
+    "deploy": "npm link"
+  },
+  "keywords": [],
+  "author": "Kenneth Rey Tamis",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "colors": "^1.4.0",
+    "commander": "^8.3.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^8.2.0",
+    "moment": "^2.29.1",
+    "node-binance-api": "^0.13.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "description": ""
+}
