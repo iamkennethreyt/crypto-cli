@@ -8,8 +8,10 @@ const ct = new Crypto(APIkey, APIsecret);
 
 const binance = new Binance().options({
   APIKEY: APIkey,
-  APISECRET: APIsecret
-  // recvWindow: 8000
+  APISECRET: APIsecret,
+  useServerTime: true,
+  recvWindow: 60000,
+  verbose: true
 });
 
 const crypto = {
