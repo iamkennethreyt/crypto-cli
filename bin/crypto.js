@@ -9,4 +9,5 @@ program
   .command('trade', 'Trade your crypto')
   .command('bal', 'Current Balance')
   .command('hist', 'Trade History')
+  .command('play', 'Trade your crypto')
   .parse(process.argv);
